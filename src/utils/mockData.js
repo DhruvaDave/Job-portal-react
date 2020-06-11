@@ -165,7 +165,21 @@ export const jobList = [
     location: "Bangalore, India",
     logo: "https://fakeimg.pl/125/",
     experience: "2-5 Years",
-    skills: ["Java", "Python", "Javascript"],
+    skills: 
+    [
+      {
+        name: "Java",
+        value: "Java",
+      },
+      {
+        name: "Python",
+        value: "Python",
+      },
+      {
+        name: "Javascript",
+        value: "Javascript",
+      },
+    ],
     type: "partTime",
   },
 ];
